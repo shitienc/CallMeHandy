@@ -1,0 +1,421 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* baggrund for hjemmeside */
+
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/background-header-main.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar + logoet */
+
+
+nav{
+    display: flex;
+    padding: 2% 5% 2% 15%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+/* navbar gemmes (til mobilformat) */
+html, body{overflow-x: hidden;
+
+}
+
+/* links i navbaren */
+
+.nav-links ul{
+    display: block;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    padding: 7px 25px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background: burlywood;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+ul li:hover::after{
+    width: 100%;
+}
+
+/* navbaren der slider ud, når man klikker på icon */
+
+
+.nav-links{
+    position: absolute;
+    background-color: #E57147;
+    color: #000;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+
+/* icon (burgermenu) */
+
+
+nav .fas{
+    display: block;
+    color: #fff;
+    margin: 40px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* teksten under nav */
+
+
+.text-box{
+    display: block;
+    padding: 0rem 10rem 0rem 0rem;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.text-box h1{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+
+.text-box h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    color: #E57147;
+}
+
+.text-box p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 0px 25px 0px;
+    color: #000;
+}
+
+.text-content-service {
+    justify-content: center;
+}
+
+/* læs mere knap */
+
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-btn:hover{
+    border: 1px solid #000;
+    background: #E57147;
+    transition: 1s;
+}
+
+
+/* ny sektion – "Grunde til at anvende Call Me Handy" */
+
+
+.grunde{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.grunde h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E57147;
+}
+
+.grunde p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/* orange boxe og teskt til "grunde" */
+
+
+.text{
+    margin: 4% 8%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text-content{
+    flex-basis: 30%;
+    background: #E57147;
+    border-radius: 30px;
+    padding: 30px 12px;
+    justify-content: space-around;
+}
+
+.text-content p{
+    font-size: 16px;
+    padding: 2rem 2rem 2rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-content h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* ny sektion – "services vi tilbyder" */
+
+
+.service{
+    margin-top: 5%;
+    background-color: #f4e9e5;
+}
+
+.service h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E57147;
+    padding: 5% 0% 0% 9%;
+}
+
+/* services – billeder + tekst indhold */
+
+
+.text-service{
+    margin: 4% 8%;
+    justify-content: space-between;
+
+}
+
+.text-content-service{
+    flex-basis: 30%;
+    padding: 20px 12px;
+}
+
+.text-content-service img{
+    width: 50%;
+    border: 3px solid #E57147;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-content-service p{
+    font-size: 16px; 
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-content-service h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;    ;
+    text-align: center;
+}
+
+
+
+/* ny sektion – installér app i dag */
+
+
+.installer-app{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.installer-app img{
+    width: 80px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    cursor: pointer;
+}
+
+.installer-app h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E57147;
+}
+
+
+footer{
+    background-color: #E57147;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 42% 2% 5%;
+}
+
+
+.adress-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cvr-phone-email{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+/* navbar til desktop */
+
+header{
+    background-image: url(img/background-header-main.jpg);
+}
+
+nav{
+    display: flex;
+    padding: 2% 5% 2% 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    text-align: center;
+    flex: 1;
+    background-color: transparent;
+    width: 100%;
+    padding-top: 4%;
+}
+
+.nav-links ul{
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 7px 25px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #E57147;
+    font-size: 20px;
+}
+
+nav .fas{
+    display: none;
+}
+
+.text-box{
+    margin: 3%;
+}
+
+/* sektion 2 – orange bokse */
+.grunde{
+    text-align: center;
+    margin: 5%;
+}
+
+.grunde h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E57147
+}
+
+.grunde p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.text{
+    margin: 4% 8%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-content{
+    flex-basis: 30%;
+    background: #E57147;
+    border-radius: 30px;
+    padding: 20px 12px; 
+}
+
+.text-content p{
+    font-size: 16px;
+    padding: 2rem 2rem 2rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-content h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/* sektion 3 – services */
+
+    .text{
+        margin: 4% 8%;
+        display: flexbox;
+        justify-content: space-between;
+    }
+
+    .text-service{
+        margin: 4% 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .text-content-service{
+        flex-basis: 30%;
+        padding: 20px 12px;
+    }
+ 
+    .text-content-service img{
+        width: 100%;
+    }
+}
