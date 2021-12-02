@@ -51,7 +51,7 @@ nav img{
     color: #E57147;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 ul li::after{
@@ -79,7 +79,7 @@ nav .fas{
 }
 
 .text-box h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Righteous', regular;
     font-size: 50px;
     color: #E57147;
     text-align: center;
@@ -89,7 +89,7 @@ nav .fas{
 
 .hvem h1{
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Righteous', regular;
     color: #E57147;
     text-align: center;
     padding-top: 5%;
@@ -119,14 +119,14 @@ nav .fas{
 .text-content-hvem p{
     font-size: 16px; 
     padding: 1rem 1rem 1rem 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Righteous', regular;
     border-radius: 30px;
     text-align: center;
 }
 
 .text-content-hvem h3{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     padding: 5%;
     text-align: center;
     color: #E57147;
@@ -141,13 +141,13 @@ nav .fas{
 
 .mission h1{
     font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Righteous', regular;
     color: #E57147;
     text-align: center;
 }
 
 .mission p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     font-size: 20px;
     text-align: center;
     padding: 5%;
@@ -170,14 +170,14 @@ nav .fas{
 }
 
 .koncept .text h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Righteous', regular;
     color: #E57147;
     padding-bottom: 5%;
     text-align: center;
 }
 
 .koncept .text p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     padding: 0% 0% 5% 0%;
 }
 
@@ -193,7 +193,7 @@ nav .fas{
     font-size: 14px;
     padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Righteous', regular;
 }
 
 .btn:hover{
@@ -211,11 +211,11 @@ footer{
 }
 
 .adress-info{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 .cvr-phone-email{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 @media screen and (max-width: 650px) {
