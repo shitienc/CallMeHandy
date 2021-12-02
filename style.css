@@ -57,7 +57,7 @@ html, body{overflow-x: hidden;
     color: #000;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text';
 }
 
 ul li::after{
@@ -114,22 +114,22 @@ nav .fas{
 }
 
 .text-box h1{
-    font-size: 19px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-family: 'Bellota Text', bold;
     color: #000;
 }
 
 .text-box h2{
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-family: 'Righteous', regular;
     padding-top: 20px;
     color: #E57147;
 }
 
 .text-box p{
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 15px 0px 25px 0px;
+    font-size: 12px;
+    font-family: 'Bellota Text', regular;
+    padding: 10px 0px 25px 0px;
     color: #000;
 }
 
@@ -150,7 +150,7 @@ nav .fas{
     font-size: 14px;
     padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 .hero-btn:hover{
@@ -170,12 +170,12 @@ nav .fas{
 
 .grunde h1{
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     color: #E57147;
 }
 
 .grunde p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     font-size: 18px;
     padding-top: 20px;
 }
@@ -200,12 +200,12 @@ nav .fas{
 .text-content p{
     font-size: 16px;
     padding: 2rem 2rem 2rem 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 .text-content h3{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 
 }
 
@@ -220,7 +220,7 @@ nav .fas{
 .service h1{
     font-size: 25px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     color: #E57147;
     padding: 5% 0% 0% 9%;
 }
@@ -251,12 +251,12 @@ nav .fas{
     font-size: 16px; 
     padding: 1rem 1rem 1rem 1rem;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 .text-content-service h3{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     padding: 5px;    ;
     text-align: center;
 }
@@ -280,7 +280,7 @@ nav .fas{
 
 .installer-app h1{
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
     color: #E57147;
 }
 
@@ -294,11 +294,12 @@ footer{
 
 
 .adress-info{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
 }
 
 .cvr-phone-email{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bellota Text', regular;
+    text-align: left;
 }
 
 
@@ -327,12 +328,6 @@ nav{
     padding-top: 4%;
 }
 
-.nav-links ul{
-    display: block;
-    padding: 30px;
-    text-align: center;
-}
-
 .nav-links ul li{
     display: inline-block;
     padding: 7px 25px;
@@ -352,6 +347,18 @@ nav .fas{
     margin: 3%;
 }
 
+.text-box h1{
+    font-size: 19px;
+}
+
+.text-box h2{
+    font-size: 35px;
+}
+
+.text-box p{
+    font-size: 18px;
+}
+
 /* sektion 2 – orange bokse */
 .grunde{
     text-align: center;
@@ -360,12 +367,9 @@ nav .fas{
 
 .grunde h1{
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #E57147
 }
 
 .grunde p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     padding-top: 20px;
 }
@@ -375,24 +379,6 @@ nav .fas{
     display: flex;
     justify-content: space-between;
 
-}
-.text-content{
-    flex-basis: 30%;
-    background: #E57147;
-    border-radius: 30px;
-    padding: 20px 12px; 
-}
-
-.text-content p{
-    font-size: 16px;
-    padding: 2rem 2rem 2rem 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.text-content h3{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
 }
 
 /* sektion 3 – services */
@@ -409,12 +395,6 @@ nav .fas{
         justify-content: space-between;
     }
     
-
-    .text-content-service{
-        flex-basis: 30%;
-        padding: 20px 12px;
-    }
- 
     .text-content-service img{
         width: 100%;
     }
