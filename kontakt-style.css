@@ -9,7 +9,7 @@
   header {
     min-height: 100vh;
     width: 100%;
-    background-image: url("./images/background-header-phone.png");
+    background-image: url("img/baggrund.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -178,7 +178,7 @@
   
   @media (min-width: 1000px) {
     header {
-      background-image: url("./images/background-header-main.png");
+      background-image: url("img/baggrundweb.png");
       height: 700px;
     }
   
