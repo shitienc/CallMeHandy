@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bellota Text'
+    font-family: 'Righteous'
+}
+
+body{
+    background-color: rgb(226, 226, 226); 
+}
+
+/*hjemmesidens baggrund*/ 
+
+header {
+    min-height: 20vh;
+    width: 100%;
+    background-image: url("img/background-header.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top-part{
+    display: flex;
+    justify-content: space-between;
+} 
+
+/*logo navbar*/
+.header-logo{
+    width: 150px;
+    margin-left: 20px;
+}
+
+/*navbar til mobilform*/
+
+html, body {overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 2% 5% 2% 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #E67246;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #DFC4A3;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
+/*styling af section*/
+
+.forskrift{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.forskrift{
+    font-size: 14px;
+    color: #e67246;
+    padding-bottom: 4rem;
+}
+
+.linkboks{
+    width: 100vw;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.linkboks h1{
+    padding-bottom: 40px;
+    font-size: 15px;
+    color: #E67246;
+}
+
+
+
+.infoboks{
+    color: #E67246;
+
+}
+
+.infoboks h3{
+    color: #E67246;
+    margin-top: 20px;
+}
+
+.infoboks{
+    background-color: #F4E9E5;
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+
+.tekst{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+footer{
+    background-color: #E67246;
+}
+
+.ikoner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ikoner img {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 50px;
+}
+
+
+
+footer{
+
+}
+
+@media only screen and (max-width: 660px) {
+    
+    html, body {overflow-x: hidden;
+    }
+    
+    nav{
+        display: flex;
+        padding: 2% 5% 2% 15%;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+/*navbaren der slider ud nÃ¥r man klikker pÃ¥ icon*/
+.nav-links{
+    position: absolute;
+    background-color: #E57147;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+/*icon (burgermenu)*/
+
+.fas{
+    display: block;
+    color: #fff;
+    margin: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+}
