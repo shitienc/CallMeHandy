@@ -9,7 +9,7 @@
   header {
     min-height: 100vh;
     width: 100%;
-    background-image: url("img/baggrund.png");
+    background-image: url("img/background-header-phone.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -76,7 +76,7 @@
     justify-content: center;
     align-items: center;
     height: calc(926px - calc(136.156px + 8.547px));
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: 'Righteous', regular;
   }
@@ -106,7 +106,7 @@
   .third-box {
     height: 1127px;
     width: 100%;
-    background-color: #f4e9e5;
+    background-color: #F5F6F8;
     font-family: 'Righteous', regular;
   }
   
@@ -178,7 +178,7 @@
   
   @media (min-width: 1000px) {
     header {
-      background-image: url("img/baggrundweb.png");
+      background-image: url("img/background-header.jpg");
       height: 700px;
     }
   
@@ -219,7 +219,7 @@
     /* Font størrelsesændring */
   
     .title-container {
-      font-size: 5rem;
+      font-size: rem;
     }
   
     .middle {
