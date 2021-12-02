@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+    
+  }
+  /* baggrund for hjemmeside.*/
+  
+  header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("./images/background-header-phone.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* logo til navbar */
+  
+  nav img {
+    width: 150px;
+  }
+  
+  /* navbar til mobilform */
+  
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
+  nav {
+    display: flex;
+    padding: 2% 5% 2% 15%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* links i navbaren */
+  
+  .nav-links ul {
+    display: block;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .nav-links ul li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  /*navbaren der slider ud når man klikker på icon*/
+  
+  .nav-links {
+    position: absolute;
+    background-color: #e57147;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    transition: 0.5s;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(926px - calc(136.156px + 8.547px));
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Righteous', regular;
+  }
+  
+  .middle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 368px;
+    font-family: 'Righteous', regular;
+  }
+  
+  .middle-text {
+    font-size: 1.125rem;
+    font-family: 'Bellota Text', regular;
+  }
+  
+  .text-color {
+    color: #e57147;
+  
+  }
+  
+  .third-box {
+    height: 1127px;
+    width: 100%;
+    background-color: #f4e9e5;
+    font-family: 'Righteous', regular;
+  }
+  
+  .container {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  form {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Bellota Text', regular;
+  
+  
+  }
+  
+  .form-header {
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    height: 40px;
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+  
+  .sButton {
+    background-color: #e67246;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1.2rem;
+    border: none;
+    font-family: 'Bellota Text', regular;
+  }
+  
+  footer {
+    background-color: #e57147;
+    width: 100%;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* padding-right: 2rem;
+    padding-left: 2rem; */
+    align-self: center;
+  }
+  
+  /*icon (burgermenu)*/
+  
+  nav .fa {
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 1000px) {
+    header {
+      background-image: url("./images/background-header-main.png");
+      height: 700px;
+    }
+  
+    nav .fa {
+      display: none;
+    }
+  
+    .nav-links {
+      width: 100%;
+      height: 0;
+      padding-top: 4%;
+      background-color: transparent;
+    }
+  
+    .nav-links ul li {
+      display: inline-block;
+      padding: 7px 25px;
+    }
+  
+    .nav-links ul li a {
+      color: #e57147;
+    }
+  
+    ul li::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: burlywood;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+    }
+  
+    ul li:hover::after {
+      width: 100%;
+    }
+  
+    /* Font størrelsesændring */
+  
+    .title-container {
+      font-size: 5rem;
+    }
+  
+    .middle {
+      font-size: 3.125rem;
+    }
+  
+    .middle-text {
+      font-size: 1.875rem;
+    }
+  
+    .form-header {
+      text-align: left;
+      font-size: 2.5rem;
+    }
+  
+    footer {
+      font-size: 1.5rem;
+    }
+  
+    /* Størrelsesændringer */
+  
+    .middle {
+      height: 759px;
+    }
+  
+    .title-container {
+      height: calc(759px - calc(136.156px + 8.547px));
+    }
+  
+    form {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
