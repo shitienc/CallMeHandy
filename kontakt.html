@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Me Handy</title>
+    <script
+      src="https://kit.fontawesome.com/3755fb0770.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="logo.png" alt="logo" />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Forside</a></li>
+            <li><a href="#">Vores App</a></li>
+            <li><a href="#">Om Os</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Some</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="title-container">
+        <p class="text-color">KONTAKT</p>
+      </div>
+    </header>
+    <section class="middle">
+      <p class="text-color">Find os her</p>
+      <p class="middle-text text-color">Adresse: Lyngvej 21, 4600 København</p>
+      <p class="middle-text text-color">Telefon: + 45 60 19 49 65</p>
+      <p class="middle-text text-color">Email: callmehandy@outlook.dk</p>
+    </section>
+    <section class="third-box">
+      <div class="container">
+        <p class="text-color form-header">Har du nogle spørgsmål?</p>
+        <form>
+          <label for="fornavn"><p>Fornavn</p></label>
+          <input type="text" id="fornavn" name="fornavn" />
+          <label for="efternavn"><p>Efternavn</p></label>
+          <input type="text" id="efternavn" name="efternavn" />
+          <label for="email"><p>Email</p></label>
+          <input type="email" id="email" name="email" />
+          <label for="emne"><p>Emne</p></label>
+          <textarea type="text" id="emne" name="emne"></textarea>
+          <button class="sButton" type="button">Send din besked</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div style="display: flex; align-self: center">
+        <p><b>Call Me Handy Aps</b><br />Lyngvej 21,<br />4600, Køge</p>
+      </div>
+      <div style="display: flex; align-self: center">
+        <p>CVR: 10101010<br />+ 45 60 19 49 65<br />callmehandy@outlook.dk</p>
+      </div>
+    </footer>
+  </body>
+</html>
